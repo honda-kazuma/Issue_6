@@ -269,13 +269,13 @@
                         <hr class="main_sub_title6_3"></hr>
                     </div>
                 </div>
-                <img class="readmore_img" src="./img/AdobeStock_302690198_1.png" alt="">
+                <img class="readmore_img" src="./img/background_4.jpg" alt="">
                 <div class="section6_event">
                     <div class="readmore">
                         <input id="check1" class="readmore-check" type="checkbox">
 
                         <div class="readmore-content">
-                            <img class="readmore_img_sp" src="./img/AdobeStock_302690198 1.png" alt="">
+                            <img class="readmore_img_sp" src="./img/background_4.jpg" alt="">
                             <div class="section6_schedule1">
                                 <div class="section6_person1">
                                     <div class="section6_box_time">
