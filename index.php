@@ -35,7 +35,8 @@
     </header>
 
     <main>
-        <img class="main_img1" src="./img/Group 185.png" alt="">
+        <div class="main_img1"></div>
+        <div class="main_img1_sp"></div>
         <img class="main_img1_sp" src="./img/Group 186.png" alt="">
         <img class="side_button" src="./img/side_button.png" alt="">
         <section class="main_image">
@@ -91,7 +92,7 @@
                         <div>
                             <p class="event_content3">イベント内容</p>
                             <p class="event_content_text3">企業ブース出展：60ブース<br>ビジネス系セミナー：12枠</p>
-                            <p class="event_content_text3_sp">企業ブース出展：60ブース<br>ビジネス系セミナー：8枠</p>
+                            <p class="event_content_text3_sp">企業ブース出展：60ブース<span>ビジネス系セミナー：8枠</span></p>
                         </div>
                     </div>
                     <div class="section2_border3">
@@ -101,7 +102,7 @@
                         <div>
                             <p class="event_content4">対象者</p>
                             <p class="event_content_text4">経営者/ フリーランス /独立志望の会社員</p>
-                            <p class="event_content_text4_sp">経営者/ フリーランス /<br>独立志望の会社員</p>
+                            <p class="event_content_text4_sp">経営者 / フリーランス/<span>独立志望の会社員</span></p>
                         </div>
                     </div>
                     <div class="section2_border4">
@@ -229,7 +230,7 @@
                         <hr class="main_sub_title5_3"></hr>
                     </div>
                 </div>
-                <img class="section5_img" src="./img/Group 192.png" alt="">
+                <div class="section5_img"></div>
                 <img class="section5_img_sp" src="./img/Group 193.png" alt="">
                 <div class="section5_margin">
                     <div class="section5_list_area">
@@ -414,9 +415,9 @@
                         <hr class="main_sub_title7_3"></hr>
                     </div>
                 </div>
-                <img class="section7_img1" src="./img/Polygon 5.png" alt="">
-                <img class="section7_img2" src="./img/Polygon 6.png" alt="">
-                <img class="section7_img3" src="./img/Polygon 5_1.png" alt="">
+                <div class="section7_img1"></div>
+                <div class="section7_img2"></div>
+                <div class="section7_img3"></div>
                 <div class="section7_margin">
                     <div class="section7_qa1">
                         <p class="section7_q">Q</p>
