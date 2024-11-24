@@ -37,7 +37,6 @@
     <main>
         <div class="main_img1"></div>
         <div class="main_img1_sp"></div>
-        <img class="main_img1_sp" src="./img/Group 186.png" alt="">
         <img class="side_button" src="./img/side_button.png" alt="">
         <section class="main_image">
             <div class="main_title_area1">
