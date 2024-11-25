@@ -9,13 +9,12 @@ body {
     font-family: 'Roboto Bold Italic' , 'Noto Sans JP' , sans-serif; 
 }
 
-.section_1 {
+header {
     width: 100vw;
-    height: 842px;
     box-sizing: border-box;
 }
 
-.section_1:before {
+header:before {
     display: block;
     padding-top: 56.25%;
 }
@@ -459,9 +458,9 @@ main {
 
 .main_image {
     position: absolute;
-    top: -1%;
+    top: 11%;
     width: 100vw;
-    height: 592px;
+    height: 66vh;
     z-index: -999;
 }
 
@@ -471,9 +470,9 @@ main {
     background-size: cover;
     background-position: center;
     position: relative;
-    top: -18px;
+    top: 164px;
     width: 100vw;
-    height: 1503px;
+    height: 168vh;
     z-index: -999;
 }
 
@@ -574,10 +573,11 @@ main {
 
 @media screen and (min-width: 1441px) {
     .main_image {
-        top: 78px;
+        top: 263px;
     }
 
     .main_img1 {
+        top: 135px;
         height: 1690px;
         background-size: cover;
         background-position: top;
@@ -598,7 +598,7 @@ main {
 
 @media screen and (max-width: 1150px) {
     .main_image {
-        top: -9%;
+        top: 5%;
     }
 
     .main_title_area1 {
@@ -613,6 +613,10 @@ main {
 }
 
 @media screen and (max-width: 1000px) {
+    .main_image {
+        top: 3%;
+    }
+
     .logo_2 {
         font-size: 46px;
     }
@@ -636,7 +640,7 @@ main {
 
 @media screen and (max-width: 850px) {
     .main_image {
-        top: -12%;
+        top: 0%;
     }
 
     .main_title_area1 {
@@ -666,7 +670,7 @@ main {
 
 @media screen and (max-width: 700px) {
     .main_image {
-        top: -16%;
+        top: -4%;
     }
 
     .main_title_area1 {
@@ -695,6 +699,10 @@ main {
 }
 
 @media screen and (max-width: 600px) {
+    .main_image {
+        top: -5%;
+    }
+
     .logo_2 {
         font-size: 40px;
     }
@@ -719,7 +727,7 @@ main {
 
 @media screen and (max-width: 500px) {
     .main_image {
-        top: -24%;
+        top: -12%;
     }
 
     .main_title_area1 {
@@ -760,7 +768,7 @@ main {
         background-size: cover;
         display: block;
         position: relative;
-        top: -407px;
+        top: -188px;
         width: 100%;
         height: 410px;
         z-index: -999;  
@@ -776,7 +784,7 @@ main {
     }
 
     .main_image {
-        top: -46%;
+        top: 8%;
     }
 
     .logo_2 {
@@ -828,7 +836,7 @@ main {
 .section2 {
     position: relative;
     top: 89%;
-    height: 890px;
+    height: 100vh;
 }
 
 .section2_margin {
@@ -894,7 +902,7 @@ main {
 .line_1 {
     position: relative;
     top: 28.9%;
-    height: 58px;
+    height: 7vh;
     width: 100%;
     text-align: center;
     left: 0;
@@ -962,7 +970,7 @@ main {
 .line_2 {
     position: relative;
     top: 33%;
-    height: 60px;
+    height: 7vh;
     width: 100%;
     text-align: center;
     left: 0;
@@ -1010,7 +1018,7 @@ div hr {
 .line_3 {
     position: relative;
     top: 39%;
-    height: 65px;
+    height: 7vh;
     width: 100%;
     text-align: center;
     left: 0;
@@ -1058,7 +1066,7 @@ div hr {
 .line_4 {
     position: relative;
     top: 50%;
-    height: 63px;
+    height: 7vh;
     width: 100%;
     text-align: center;
     left: 0;
@@ -1101,7 +1109,7 @@ div hr {
 .line_5 {
     position: relative;
     top: 56%;
-    height: 330px;
+    height: 30vh;
     width: 100%;
     text-align: center;
     display: flex;
@@ -2748,10 +2756,8 @@ iframe {
     }
 
     .logo_3 {
-        font-size: 24px;
-        margin-top: 122px;
-        padding: 0 0px 0 0px;
-        letter-spacing: 0.04em;
+        font-size: 26px;
+        margin-top: 119px;
     }
 
     .main_sub_title2 {
@@ -2782,7 +2788,7 @@ iframe {
 
     .line_1 div {
         position: relative;
-        top: -55px;
+        top: -56px;
     }
 
     .section2_border1 {
@@ -2790,7 +2796,7 @@ iframe {
     }
 
     .section2_border1 p {
-        top: 226px;
+        top: 220px;
         margin: 0 22px 0 21px;
 
     }
@@ -2798,9 +2804,9 @@ iframe {
     .event_content1 {
         font-size: 15px;
         width: 27%;
-        height: 32px;
+        height: 3.5vh;
         left: 6%;
-        top: 6px;
+        top: 5px;
     }
 
     .event_content_text1 {
@@ -2870,16 +2876,16 @@ iframe {
     }
 
     .section2_border2 p {
-        top: 217px;
+        top: 208px;
         margin: 0 22px 0 21px;
     }
 
     .event_content2 {
         font-size: 15px;
         width: 34%;
-        height: 29px;
+        height: 3.5vh;
         left: 7%;
-        top: 11px;
+        top: 2px;
         padding: 3px;
     }
 
@@ -2892,7 +2898,7 @@ iframe {
         position: absolute;
         width: 58%;
         font-size: 3.5vw;
-        top: 13px;
+        top: 5px;
         margin: 38px 0px 0 163px;
         letter-spacing: 0.04em;
         text-align: left;
@@ -2909,7 +2915,7 @@ iframe {
     }
 
     .section2_border3 p {
-        top: 216px;
+        top: 209px;
         margin: 0 22px 0 21px;
 
     }
@@ -2917,10 +2923,10 @@ iframe {
     .event_content3 {
         font-size: 15px;
         width: 34%;
-        height: 30px;
+        height: 3.4vh;
         left: 7%;
-        top: 14px;
-        padding: 1px 0px 0 3px;
+        top: 3px;
+        padding: 3px 0px 0 3px;
         letter-spacing: -0.05em;
     }
 
@@ -2932,7 +2938,7 @@ iframe {
         display: block;
         position: absolute;
         width: 58%;
-        top: 24px;
+        top: 14px;
         font-size: 3.7vw;
         margin: 38px 0px 0 162px;
         text-align: left;
@@ -2955,16 +2961,16 @@ iframe {
     }
 
     .section2_border4 p {
-        top: 226px;
+        top: 220px;
         margin: 0 22px 0 21px;
     }
 
     .event_content4 {
         font-size: 15px;
         width: 34%;
-        height: 30px;
+        height: 3.4vh;
         left: 7%;
-        top: 10px;
+        top: 2px;
         padding: 2px;
     }
 
@@ -2976,7 +2982,7 @@ iframe {
         display: block;
         position: absolute;
         width: 50%;
-        top: 38px;
+        top: 30px;
         font-size: 3.7vw;
         margin: 12px 0px 0 75px;
         text-align: left;
@@ -2996,10 +3002,10 @@ iframe {
     .event_content5 {
         width: 27.7%;
         margin: 0px;
-        top: 5px;
+        top: -2px;
         left: 22px;
         margin-top: 50px;
-        height: 29px;
+        height: 3.4vh;
         padding: 3px 0 8px 1px;
         letter-spacing: 0.09em;
         font-size: 14px;
@@ -3009,7 +3015,6 @@ iframe {
         margin: 0;
         padding: 0 0 0 8px;
         left: 0px;
-        top: 14px;
     }
 
     .event_content_text5 {
@@ -3533,7 +3538,7 @@ iframe {
 
 @media screen and (max-width: 390px) {
     .section3 {
-        top: 219px;
+        top: 214px;
         height: 132%;
     }
 
@@ -4983,7 +4988,7 @@ iframe {
     position: absolute;
     top: -25px;
     width: 100vw;
-    height: 1520px;
+    height: 170vh;
     z-index: -999;
 }
 
@@ -6273,15 +6278,15 @@ iframe {
 
     .readmore_img {
         top: 0px;
-        height: 545px;
+        height: 61vh;
     }
 
     .readmore_img_sp {
         display: block;
         position: absolute;
-        top: -27px;
+        top: -25px;
         width: 100vw;
-        height: 1636px;
+        height: 178vh;
         z-index: -999;
     }
 
@@ -6299,18 +6304,15 @@ iframe {
         display: block;
         position: absolute;
         bottom: 0;
-        left: 18px;
+        left: 19px;
         width: 91%;
         z-index: 999;
         content: "";
         height: 15px;
-        top: 424px;
         background: -webkit-linear-gradient(top, #bebebe 0%, #a0a0a0 50%, #686868 50%, #404040 100%);
         background: linear-gradient(top, #bebebe 0%, #a0a0a0 50%, #686868 50%, #404040 100%);
         filter: blur(4px);
     }
-
-
     
     .readmore-label{
         display: table;
@@ -6319,16 +6321,15 @@ iframe {
         left: 50%;
         transform: translateX(-50%);
         -webkit-transform: translateX(-50%);
-        margin: -54px auto;
+        margin: -50px auto;
         z-index: 2;
-        padding: 1px 15px;
+        padding: 0px 17px;
         color: #ffffff;
         border: 1px solid #ffffff;
     }
 
     .readmore-label:before{
         content: 'Read more';
-        letter-spacing: 0.05em;
     }
     
     .readmore-check{
@@ -6357,7 +6358,7 @@ iframe {
 
 
     .section6 {
-        top: -46px;
+        top: -49px;
     }
 
     .main_title6 {
@@ -6396,7 +6397,6 @@ iframe {
     .section6_schedule1 {
         display: block;
         top: 123px;
-        position: absolute;
     }
 
     .section6_person1 {
@@ -6509,8 +6509,7 @@ iframe {
 
     .section6_schedule2 {
         display: block;
-        top: 460px;
-        position: absolute;
+        top: 131px;
     }
 
     .section6_person4 {
@@ -6627,8 +6626,7 @@ iframe {
 
     .section6_schedule3 {
         display: block;
-        top: 800px;
-        position: absolute;
+        top: 141px;
     }
 
     .section6_person7 {
@@ -6886,8 +6884,7 @@ iframe {
 
     .section6_schedule4 {
         display: block;
-        top: 1136px;
-        position: absolute;
+        top: 150px;
     }
 
     .section6_person10 {
