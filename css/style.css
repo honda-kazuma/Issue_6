@@ -4187,14 +4187,15 @@ iframe {
 }
 
 .section4_text4 a {
-    font-family: Roboto;
+    position: relative;
     font-size: 15px;
+    top: 1px;
     display: block;
-    margin: 13px 0px 0 83px;
+    margin: 10px 0px 0 83px;
     text-decoration: none;
     color: #333333;
-    letter-spacing: 0.07em;
-    width: 214px;
+    letter-spacing: 0.005em;
+    width: 232px;
     padding: 0 20px;
 }
 
@@ -5063,7 +5064,7 @@ iframe {
     .section5_img {
         position: absolute;
         background-size: cover;
-        height: 87%;
+        height: 107%;
     }
 
     .section5_margin {
@@ -5382,6 +5383,10 @@ iframe {
 }
 
 .readmore_img {
+    background-image: url(../img/background_4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     position: absolute;
     top: -25px;
     width: 100vw;
@@ -5666,27 +5671,21 @@ iframe {
 }
 
 .section6_schedule3 .parson_img1 {
-    width: 102px;
-    height: 105px;
-    margin: -4px 10px 0;
+    width: 292px;
+    height: 112px;
+    margin: -4px 0px 0;
     position: absolute;
     z-index: 3;
 }
 
 .section6_schedule3 .parson_img2 {
-    width: 102px;
-    height: 105px;
-    margin: -4px 100px 0px;
+    width: 105px;
+    height: 109px;
+    margin: -4px 2px 0px;
     position: absolute;
+    left: 187px;
+    top: 46px;
     z-index: 2;
-}
-
-.section6_schedule3 .parson_img3 {
-    width: 103px;
-    height: 106px;
-    margin: -4px 189px 0;
-    position: absolute;
-    z-index: 1;
 }
 
 .section6_person_text7 {
@@ -5770,51 +5769,6 @@ iframe {
     position: relative;
     top: 84px;
     z-index: 4;
-}
-
-.parson_box_text1 {
-    position: relative;
-    padding: 2px 0;
-    margin: -2px 12px;
-    line-height: 11px;
-    width: 111px;
-    font-size: 13px;
-    letter-spacing: 0.05em;
-    z-index: 1;
-}
-
-.parson_box_text1::before {
-    position: absolute;
-    top: 0;
-    /* left: 0px; */
-    width: 274px;
-    height: 0px;
-    border-color: #ffffff transparent;
-    border-width: 14px 0;
-    border-style: solid;
-    content: '';
-    transform: skewX(158deg);
-    z-index: -99;
-}
-
-.parson_box_text1 br {
-    letter-spacing: 0.05em;
-}
-
-.parson_box_text2 {
-    position: relative;
-    margin: 0px -50px 0 -46px;
-    width: 195px;
-    letter-spacing: -0.01em;
-    z-index: 1;
-}
-
-.parson_box_text3 {
-    position: relative;
-    margin: 0px -57px 0 -50px;
-    width: 190px;
-    letter-spacing: 0.04em;
-    z-index: 1;
 }
 
 .section6_schedule3 .parson_img4 {
@@ -6309,19 +6263,19 @@ iframe {
     }
 
     .section6_schedule3 .parson_img1 {
-        width: 68px;
-        height: 71px;
+        width: 197px;
+        height: 75px;
         margin: 7px 0 0;
         top: 11px;
-        left: 158px;
+        left: 149px;
     }
 
     .section6_schedule3 .parson_img2 {
-        width: 69px;
-        height: 70px;
+        width: 70px;
+        height: 71px;
         margin: 7px 0 0;
-        top: 10px;
-        left: 219px;
+        top: 11px;
+        left: 277px;
     }
 
     .section6_schedule3 .parson_img3 {
@@ -6682,11 +6636,15 @@ iframe {
     }
 
     .readmore_img_sp {
+        background-image: url(../img/AdobeStock_302690198\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
         display: block;
         position: absolute;
-        top: -27px;
+        top: 0px;
         width: 100vw;
-        height: 1636px;
+        height: 1624px;
         z-index: -999;
     }
 
@@ -7058,27 +7016,19 @@ iframe {
     }
 
     .section6_schedule3 .parson_img1 {
-        width: 68px;
-        height: 71px;
+        width: 197px;
+        height: 75px;
         margin: 7px 0 0;
         top: 11px;
-        left: 158px;
+        left: 149px;
     }
 
     .section6_schedule3 .parson_img2 {
-        width: 69px;
-        height: 70px;
-        margin: 7px 0 0;
-        top: 10px;
-        left: 219px;
-    }
-
-    .section6_schedule3 .parson_img3 {
-        width: 69px;
-        height: 70px;
+        width: 70px;
+        height: 71px;
         margin: 7px 0 0;
         top: 11px;
-        left: 278px;
+        left: 277px;
     }
 
     .section6_person7 .section6_time {
@@ -7094,41 +7044,6 @@ iframe {
 
     .parson_box {
         top: 38px;
-    }
-
-    .parson_box_text1 {
-        position: absolute;
-        padding: 2px 0;
-        margin: -2px 11px;
-        width: 90px;
-        font-size: 8px;
-        letter-spacing: 0.04em;
-        left: 152px;
-        top: 0px;
-        line-height: 7px;
-    }
-
-    .parson_box_text2 {
-        margin: 0;
-        width: 106px;
-        letter-spacing: -0.05em;
-        left: 208px;
-        font-size: 11px;
-    }
-
-    .parson_box_text3 {
-        margin: 0;
-        width: 110px;
-        letter-spacing: 0.06em;
-        left: 159px;
-        font-size: 11px;
-    }
-
-    .parson_box_text1::before {
-        top: 0px;
-        left: -4px;
-        width: 182px;
-        border-width: 9px 0;
     }
 
     .section6_person8 {

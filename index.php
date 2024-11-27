@@ -268,13 +268,13 @@
                         <hr class="main_sub_title6_3"></hr>
                     </div>
                 </div>
-                <img class="readmore_img" src="./img/AdobeStock_302690198 1.png" alt="">
+                <div class="readmore_img"></div>
                 <div class="section6_event">
                     <div class="readmore">
                         <input id="check1" class="readmore-check" type="checkbox">
 
                         <div class="readmore-content">
-                            <img class="readmore_img_sp" src="./img/AdobeStock_302690198 1.png" alt="">
+                            <div class="readmore_img_sp"></div>
                             <div class="section6_schedule1">
                                 <div class="section6_person1">
                                     <div class="section6_box_time">
@@ -332,14 +332,8 @@
                                     <div class="section6_box_time">
                                         <p class="section6_time">14:20〜</p>
                                     </div>
-                                    <img class="parson_img1" src="./img/Mask group.png" alt="">
-                                    <img class="parson_img2" src="./img/Mask group_2.png" alt="">
-                                    <img class="parson_img3" src="./img/Mask group_3.png" alt="">
-                                    <div class="parson_box">
-                                        <p class="parson_box_text1">　 やまもと<br>　りゅうけん</p>
-                                        <p class="parson_box_text2">　×　迫祐樹</p>
-                                        <p class="parson_box_text3">　× 青笹寛史</p>
-                                    </div>
+                                    <img class="parson_img1" src="./img/Group 230.png" alt="">
+                                    <img class="parson_img2" src="./img/Ellipse 43.png" alt="">
                                     <p class="section6_person_text7">SNSを伸ばした先に見える<br>世界</p>
                                     <p class="section6_person_text7_sp">SNSを伸ばした<br>先に見える世界</p>
                                 </div>
