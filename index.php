@@ -24,10 +24,10 @@
                 <div class="header_kv"></div>
                 <p class="header_kv_text">sponsored by <span>D Y M テック</span></p>
                 <div class="header_day">
-                    <p>3/4 <span>Sat</span> 10:00-18:00</p>
+                    <p>3/4 <span>Sat</span></p><p class="header_day_1">10:00~18:00</p>
                 </div>
                 <div class="header_area">
-                    <p>東京国際フォーラム ホールE2</p>
+                    <p>東京国際フォーラム <span>ホールE2</span></p>
                 </div>
                 <div class="header_button"></div>
             </div>
@@ -46,7 +46,7 @@
                     <p class="main_sub_title_2">フリーランスサミットとは？</p>
                     <hr class="main_sub_title_3"></hr>
                 </div>
-                <p class="main_title_text">「FREELANCE SUMMIT」は、StockSun株式会社が主催する<br>日本最大規模のフリーランスイベントです。</p>
+                <p class="main_title_text">「FREELANCE SUMMIT」は、<span>StockSun株式会社が主催する</span></p><p class="main_title_text_1">日本最大規模のフリーランスイベントです。</p>
                 <p class="mein_text">各業界でTOPクラスのフリーランスが集結するイベント。有名企業が集結する40ブースもの出展エリアに加え、各領域で圧倒的に結果を出し続ける精鋭フリーランス達が、自身のノウハウを語ります。他のイベントでは味わえない、新たな体験と出会える充実したコンテンツを用意しています。</p>
             </div>
 
@@ -69,7 +69,7 @@
                                 <p class="event_content_text1_2">開場10:00 閉場18:00</p>
                                 <p class="event_content_text1_3">(受付開始9:30~)</p>
                                 <p class="event_content_text1_sp">2023年3月4日（土）</p>
-                                <p class="event_content_text1_2_sp">10:00~18:00</p>
+                                <p class="event_content_text1_2_sp">10:00〜18:00</p>
                                 <p class="event_content_text1_3_sp"><br>(受付開始9:30~)</p>
                             </div>
                         </div>
@@ -90,7 +90,7 @@
                     <div class="line_3">
                         <div>
                             <p class="event_content3">イベント内容</p>
-                            <p class="event_content_text3">企業ブース出展：60ブース<br>ビジネス系セミナー：12枠</p>
+                            <p class="event_content_text3">企業ブース出展：60ブース<span>ビジネス系セミナー：12枠</span></p>
                             <p class="event_content_text3_sp">企業ブース出展：60ブース<span>ビジネス系セミナー：8枠</span></p>
                         </div>
                     </div>
@@ -121,18 +121,18 @@
                             <p class="event_content_text8"><span>⚫︎ </span>地下鉄</p>
                             <div class="line_5_sub_text">
                                 <p class="event_content_text9">　有楽町線</p>
-                                <p class="event_content_text9_time"> : 有楽町駅(B1F地下コンコースにて連絡)</p>
-                                <p class="event_content_text9_time_sp"> : 有楽町駅(B1F地下コン<span>コースにて連絡)</span></p>
+                                <p class="event_content_text9_time"> : <span>有楽町駅(B1F地下コンコースにて連絡)</span></p>
+                                <p class="event_content_text9_time_sp"> : <span>有楽町駅(B1F地下コン</span></p><p class="event_content_text9_time_sp_1">コースにて連絡)</p>
                                 <p class="event_content_text9_1">　千代田線</p>
-                                <p class="event_content_text9_1_time"> : 二重橋前駅より徒歩5分/日比谷駅より徒歩7分</p>
+                                <p class="event_content_text9_1_time"> : <span>二重橋前駅より徒歩5分/日比谷駅より徒歩7分</span></p>
                                 <p class="event_content_text9_1_time_sp"> : 二重橋前駅より徒歩5<span>分/日比谷駅より徒歩7分</span></p>
                                 <p class="event_content_text9_2">　丸ノ内線</p>
-                                <p class="event_content_text9_2_time"> : 銀座駅より徒歩5分</p>
+                                <p class="event_content_text9_2_time"> : <span>銀座駅より徒歩5分</span></p>
                                 <p class="event_content_text9_3">　銀座線</p>
-                                <p class="event_content_text9_3_time"> : 銀座駅より徒歩7分/京橋駅より徒歩7分</p>
-                                <p class="event_content_text9_3_time_sp"> : 銀座駅より徒歩7分/京橋<span>駅より徒歩7分</span></p>
+                                <p class="event_content_text9_3_time"> : <span>銀座駅より徒歩7分/京橋駅より徒歩7分</span></p>
+                                <p class="event_content_text9_3_time_sp"> : <span>銀座駅より徒歩7分/京橋</span></p><p class="event_content_text9_3_time_sp_1">駅より徒歩7分</p>
                                 <p class="event_content_text9_4">　三田線</p>
-                                <p class="event_content_text9_4_time"> : 日比谷駅より徒歩5分</p>
+                                <p class="event_content_text9_4_time"> : <span>日比谷駅より徒歩5分</span></p>
                             </div>
                             <div class="line_5_sub_map">
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d1620.503502675029!2d139.7635033!3d35.6768295!3m2!1i1024!2i768!4f13.1!2m1!1z5p2x5Lqs5Zu96Zqb44OV44Kp44O844Op44OgIOODm-ODvOODq2U!5e0!3m2!1sja!2sjp!4v1731072217380!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -191,7 +191,7 @@
                         <div class="section4_title">
                             <div class="section4_sub_title">
                                 <img class="section4_img1" src="./img/image 15.png" alt="">
-                                <p class="section4_text1">オープラン株式会社は「ITサービス」を軸に「人」と「グローバル」に向き合い日本を代表する企業になるべく2015年に産声をあげたベンチャー企業です。
+                                <p class="section4_text1">オープラン株式会社は「ITサービス」を軸に「人」と「グローバル」に向き合い日本を代表す<span>る企業になるべく2015年に産声をあげたベンチャー企業です。</span>
                                 <a href="https://oplan.co.jp/"><br>https://oplan.co.jp/</a>
                                 </p>
                             </div>
@@ -212,7 +212,7 @@
                             </div>
                             <div class="section4_sub_title">
                                 <img class="section4_img5" src="./img/image 18.png" alt="">
-                                <p class="section4_text5">1000業種以上の圧倒的運用実績！リスティング、Facebook・TwitterなどのSNS広告もおまかせ。</p>
+                                <p class="section4_text5">1000業種以上の圧倒的運用実績！リスティング、Facebook・TwitterなどのSNS広告もおま<span>かせ。</span></p>
                             </div>
                         </div>
                     </div>
@@ -452,8 +452,9 @@
         </div>
         <div class="footer_area">
             <div>
-                <img src="./img/footer_logo.png" alt="">
-                <p>個人情報保護方針</p>
+                <p class="footer_logo_text">運営会社</p>
+                <img src="./img/stocksun_footer_logo.png" alt="">
+                <p class="footer_text">個人情報保護方針</p>
             </div>
         </div>
 
