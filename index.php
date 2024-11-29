@@ -229,7 +229,9 @@
                     </div>
                 </div>
                 <div class="section5_img"></div>
-                <img class="section5_img_sp" src="./img/Group 193.png" alt="">
+
+                <img class="section5_img_sp_1" src="./img/Polygon 1.png" alt="">
+                <img class="section5_img_sp_2" src="./img/Polygon 6_1.png" alt="">
                 <div class="section5_margin">
                     <div class="section5_list_area">
                         <div class="section5_list1">
@@ -298,6 +300,13 @@
                                     </div>
                                     <img src="./img/Group 168.png" alt="">
                                     <p class="section6_person_text3">営業出身のフリーランスの<br>生存戦略</p>
+                                </div>
+                                <div  class="section6_person3_shadow">
+                                    <div class="section6_box_time">
+                                        <p class="section6_time">12:00〜</p>
+                                    </div>
+                                    <img src="./img/Group 168.png" alt="">
+                                    <p class="section6_person_text3_shadow">営業出身のフリーランスの<br>生存戦略</p>
                                 </div>
                             </div>
             
@@ -429,7 +438,7 @@
                     </div>
                     <div class="section7_qa3">
                         <p class="section7_q">Q</p>
-                        <p class="section7_q_text">出展を希望する企業はどこから問い合わせれば良いですか？</p>
+                        <p class="section7_q_text">出展を希望する企業はどこから<span>問い合わせれば良いですか？</span></p>
                     </div>
                     <div class="section7_qa3">
                         <p class="section7_a">A</p>

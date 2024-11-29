@@ -4951,7 +4951,11 @@ iframe {
     left: -15px;
 }
 
-.section5_img_sp {
+.section5_img_sp_1 {
+    display: none;
+}
+
+.section5_img_sp_2 {
     display: none;
 }
 
@@ -5276,14 +5280,14 @@ iframe {
 @media screen and (max-width: 390px) {
     .section5 {
         position: relative;
-        height: 626px;
+        height: 850px;
         width: 100%;
-        top: 503px;
+        top: 189px;
         z-index: -999;
     }
 
     .main_title5 {
-        top: -314px;
+        top: 0px;
         margin: 24px -2px 0;
     }
 
@@ -5323,45 +5327,65 @@ iframe {
         display: none;
     }
 
-    .section5_img_sp {
+    .section5_img_sp_1 {
         display: block;
         position: relative;
-        top: -290px;
-        width: 100vw;
+        top: 500px;
+        width: 13vw;
         height: auto;
     }
 
+    .section5_img_sp_2 {
+        display: block;
+        position: relative;
+        top: -19px;
+        width: 15vw;
+        height: auto;
+        left: 331px;
+    }
+
+    .section5_margin {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 71%;
+        top: 28px;
+    }
+
     .section5_list_area {
-        display: flex;
+        display: block;
         position: absolute;
         margin: 0;
-        top: -32%;
+        top: 15%;
         padding: 0 15px;
         left: 0px;
     }
 
     .section5_list1 {
         width: 172px;
-        font-size: 9px;
+        font-size: 12px;
         line-height: 24px;
         left: 0px;
+        text-align: center;
     }
 
     .section5_list2 {
-        width: 171px;
-        font-size: 9px;
+        width: 172px;
+        font-size: 12px;
         line-height: 24px;
-        margin-left: 15px;
-        left: 4px;
+        margin-left: 0px;
+        left: 0px;
+        text-align: center;
     }
 
     .section5_list2 p {
-        width: 99%;
+        width: 216%;
     }
 
     .section5_list2 .section5_list_sub {
-        margin: 30px 0 0 -60px;
-        width: 130%;
+        margin: 12px 0;
+        width: 216%;
+        text-align: center;
     }
 }
 
@@ -5547,6 +5571,26 @@ iframe {
     margin: 0 8px 0 0;
     background: #F1FBFF99;
     z-index: -100;
+}
+
+.section6_person3_shadow {
+    display: none;
+}
+
+.section6_person3_shadow .section6_time {
+    display: none;
+}
+
+.section6_person3_shadow .section6_time::before {
+    display: none;
+}
+
+.section6_person3_shadow img {
+    display: none;
+}
+
+.section6_person_text3_shadow {
+    display: none;
 }
 
 .section6_person3 img {
@@ -6631,8 +6675,18 @@ iframe {
     }
 
     .readmore_img {
+        background-image: url(../img/AdobeStock_302690198\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
         top: 0px;
         height: 545px;
+        z-index: -103;
+    }
+
+    .readmore_img::after {
+        content: "";
+        display: none;
     }
 
     .readmore_img_sp {
@@ -6645,7 +6699,7 @@ iframe {
         top: 0px;
         width: 100vw;
         height: 1624px;
-        z-index: -999;
+        z-index: -104;
     }
 
     .section6 img::before {
@@ -6655,7 +6709,7 @@ iframe {
     .readmore-content{
         position: relative;
         overflow: hidden;
-        height: 437px;
+        height: 458px;
     }
 
     .readmore-content::before {
@@ -6668,9 +6722,9 @@ iframe {
         content: "";
         height: 15px;
         top: 424px;
-        background: -webkit-linear-gradient(top, #bebebe 0%, #a0a0a0 50%, #686868 50%, #404040 100%);
+        /*background: -webkit-linear-gradient(top, #bebebe 0%, #a0a0a0 50%, #686868 50%, #404040 100%);
         background: linear-gradient(top, #bebebe 0%, #a0a0a0 50%, #686868 50%, #404040 100%);
-        filter: blur(4px);
+        filter: blur(4px);*/
     }
 
 
@@ -6682,7 +6736,7 @@ iframe {
         left: 50%;
         transform: translateX(-50%);
         -webkit-transform: translateX(-50%);
-        margin: -54px auto;
+        margin: -33px auto;
         z-index: 2;
         padding: 0px 13px;
         color: #ffffff;
@@ -6720,6 +6774,7 @@ iframe {
 
     .section6 {
         top: -46px;
+        height: 1217px;
     }
 
     .main_title6 {
@@ -6839,6 +6894,9 @@ iframe {
         letter-spacing: 0.02em;
     }
 
+
+
+
     .section6_person3 {
         width: 356px;
         height: 105px;
@@ -6870,6 +6928,60 @@ iframe {
         line-height: 19px;
         letter-spacing: 0.08em;
     }
+
+
+
+    .section6_person3_shadow {
+        display: block;
+        position: absolute;
+        top: 219px;
+        width: 356px;
+        height: 105px;
+        border-radius: 10px;
+        margin: 8px 4px 0 17px;
+        background: #F1FBFF99;
+        z-index: -100;
+        box-shadow: 0 -43px 30px -30px inset;
+    }
+
+    .section6_person3_shadow .section6_time {
+        display: block;
+        position: absolute;
+        margin: -1px 0px;
+        font-size: 12px;
+        letter-spacing: 0.15em;
+        padding: 9px 0 0 4px;
+    }
+
+    .section6_person3_shadow .section6_time::before {
+        display: block;
+        position: absolute;
+        top: 6px;
+        width: 74px;
+    }
+
+    .section6_person3_shadow img {
+        display: block;
+        position: absolute;
+        width: 86px;
+        height: 91px;
+        margin: 1px 0 0 254px;
+        top: 6px;
+    }
+
+    .section6_person_text3_shadow {
+        display: block;
+        position: absolute;
+        font-size: 16px;
+        top: 45%;
+        left: 15px;
+        line-height: 19px;
+        letter-spacing: 0.08em;
+    }
+
+
+
+
 
     .section6_schedule2 {
         display: block;
@@ -7713,7 +7825,7 @@ iframe {
         position: relative;
         height: 373px;
         width: 100%;
-        top: -960px;
+        top: -684px;
         z-index: -999;
     }
 
@@ -7808,7 +7920,24 @@ iframe {
     }
 
     .section7_qa3 {
-        display: none;
+        top: 104px;
+        margin: 0px 41px 15px;
+    }
+
+    .section7_q_text span {
+        position: relative;
+        display: block;
+        top: 8px;
+    }
+
+    .section7_qa3 .section7_a {
+        position: relative;
+        top: 10px;
+    }
+
+    .section7_qa3 .section7_a_text {
+        position: relative;
+        top: 10px;
     }
 }
 
@@ -8002,7 +8131,7 @@ footer {
 
 @media screen and (max-width: 390px) {
     footer {
-        top: 4514px;
+        top: 4784px;
         height: 158px;
     }
 
